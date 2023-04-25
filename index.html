@@ -7,23 +7,41 @@
         <link rel="icon" type="image/png" href="TRUMPicon.png">
 
         <style>
+            @font-face {
+            font-family: NotoSerifTC-Black;
+            src: url(NotoSerifTC-Black.otf);
+            }
+            @font-face {
+            font-family: NotoSerifTC-ExtraLight;
+            src: url(NotoSerifTC-ExtraLight.otf);
+            }
+            @font-face {
+            font-family: NotoSerifTC-Regular;
+            src: url(NotoSerifTC-Regular.otf);
+            }
+            
+
             h1{
                 font-size: 70px;
                 text-align: center;
                 height: 50px;
-                font-family:Papyrus ,system-ui;
+                font-family:NotoSerifTC-Black,/* Papyrus,*/system-ui;
             }
             h3{
                 font-size: 25px;
-                font-family:/*fantasy ,*/system-ui;
+                font-family:/*fantasy ,*/NotoSerifTC-Regular,system-ui;
+            }
+            h4{
+                font-size: 15px;
+                font-family:/*fantasy ,*/NotoSerifTC-Regular,system-ui;
             }
             p{
                 font-size: 23px;
-                font-family:/* Papyrus,*/fangsong, sans-serif;
+                font-family:/* Papyrus,*/fangsong, system-ui;
             }
             pre{
                 font-size: 20px;
-                font-family:Arial, sans-serif;
+                font-family:Arial, system-ui;
             }
             div{
                 margin-left: 15%;
